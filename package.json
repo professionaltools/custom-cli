@@ -1,0 +1,27 @@
+{
+  "name": "custom-cli",
+  "version": "1.0.0",
+  "description": "集成vue和react的一个便捷式脚手架",
+  "main": "index.js",
+  "bin": {
+    "custom": "./bin/index.js"
+  },
+  "scripts": {
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish"
+  },
+  "keywords": [
+    "vue",
+    "react"
+  ],
+  "author": "dno",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.1",
+    "ora": "^4.0.3"
+  }
+}
