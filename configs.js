@@ -10,7 +10,10 @@ const options = [
     name: 'name',
     message: 'Enter the project name：',
     validate(val) {
-      return val !== ''
+      if(val !== ''){
+        return val
+      }
+      return 'please enter the project name'
     }
   },
   {
