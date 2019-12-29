@@ -1,6 +1,6 @@
 {
   "name": "create-custom-cli",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "集成vue和react的一个便捷式脚手架",
   "main": "index.js",
   "bin": {
@@ -13,6 +13,10 @@
     "vue",
     "react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/professionaltools/custom-cli.git"
+  },
   "author": "dno",
   "license": "ISC",
   "dependencies": {

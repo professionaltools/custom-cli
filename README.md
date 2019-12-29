@@ -1,4 +1,4 @@
-# custom-cli
+# create-custom-cli
 
 > 基础脚手架
 

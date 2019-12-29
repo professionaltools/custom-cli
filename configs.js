@@ -10,7 +10,7 @@ const options = [
     name: 'name',
     message: 'Enter the project name：',
     validate(val) {
-      if (val === '') {
+      if (val.trim() === '') {
         return 'please enter the project name'
       }
       return true
