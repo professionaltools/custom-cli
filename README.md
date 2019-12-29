@@ -7,7 +7,7 @@
 
 ```bash
 全局安装
-npm install custom-cli
+npm install create-custom-cli
 
 脚手架中内置了vue和react的基础框架
 使用custom init命令，跟着命令行的提示进行操作，就可以生成一个vue或react项目了。
