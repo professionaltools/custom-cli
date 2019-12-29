@@ -1,6 +1,6 @@
 {
   "vue": {
-    "url": "professionaltools/custom-cli"
+    "url": "professionaltools/custom-vcli"
   },
   "react": {
     "url": "professionaltools/custom-rcli"

@@ -1,6 +1,6 @@
 {
   "name": "create-custom-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "集成vue和react的一个便捷式脚手架",
   "main": "index.js",
   "bin": {
