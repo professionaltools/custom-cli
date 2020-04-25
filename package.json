@@ -1,6 +1,6 @@
 {
   "name": "create-custom-cli",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "集成vue和react的一个便捷式脚手架",
   "main": "index.js",
   "bin": {
@@ -24,6 +24,7 @@
     "commander": "^4.0.1",
     "download-git-repo": "^3.0.2",
     "inquirer": "^7.0.1",
-    "ora": "^4.0.3"
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.4"
   }
 }
