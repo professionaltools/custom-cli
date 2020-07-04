@@ -4,13 +4,13 @@ const chalk = require("chalk")
 program.version(require("../package.json").version, '-v,--version')
 program.name('custom').usage("[global options] command")
 
-program.command("init")
-  .description("generate a new project")
+program.command("init <projectName>")
   .alias('i')
-  .action(() => {
-    require("../command/init")()
+  .description("generate a new project")
+  .action(desc => {
+    require("../command/init").init(desc)
   })
-program.command("use")
+program.command("use <templateUrl> <projectName>")
   .description("generate a new project straight from a github template")
   .alias('u')
   .action(() => {
@@ -18,7 +18,7 @@ program.command("use")
     if (program.args.length !== 2) {
       program.help()
     } else {
-      require("../command/use")(args[0], args[1])
+      require("../command/init").init(args[1],args[0])
     }
   })
 program.on("--help", () => {
